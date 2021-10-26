@@ -40,8 +40,6 @@ namespace MyCalculator_bderobles
             this.button4 = new System.Windows.Forms.Button();
             this.scientificToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
@@ -75,10 +73,20 @@ namespace MyCalculator_bderobles
             this.button22 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.degToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.radToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gradToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,10 +94,11 @@ namespace MyCalculator_bderobles
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.editToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(511, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(511, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -100,7 +109,7 @@ namespace MyCalculator_bderobles
             this.scientificToolStripMenuItem1,
             this.exitToolStripMenuItem1});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 26);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // exitToolStripMenuItem
@@ -165,26 +174,6 @@ namespace MyCalculator_bderobles
             this.exitToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.exitToolStripMenuItem1.Text = "Exit";
             // 
-            // button1
-            // 
-            this.button1.Image = global::MyCalculator_bderobles.Properties.Resources.icons8_undo_24;
-            this.button1.Location = new System.Drawing.Point(12, 119);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 48);
-            this.button1.TabIndex = 3;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button9
-            // 
-            this.button9.Image = global::MyCalculator_bderobles.Properties.Resources.icons8_undo_24;
-            this.button9.Location = new System.Drawing.Point(12, 119);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(56, 48);
-            this.button9.TabIndex = 3;
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button1_Click);
-            // 
             // button10
             // 
             this.button10.Location = new System.Drawing.Point(74, 119);
@@ -205,6 +194,7 @@ namespace MyCalculator_bderobles
             // 
             // button14
             // 
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.Location = new System.Drawing.Point(198, 119);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(56, 48);
@@ -214,7 +204,7 @@ namespace MyCalculator_bderobles
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(12, 182);
+            this.button16.Location = new System.Drawing.Point(12, 173);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(56, 48);
             this.button16.TabIndex = 3;
@@ -224,7 +214,7 @@ namespace MyCalculator_bderobles
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(74, 182);
+            this.button17.Location = new System.Drawing.Point(74, 173);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(56, 48);
             this.button17.TabIndex = 3;
@@ -233,7 +223,7 @@ namespace MyCalculator_bderobles
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(136, 182);
+            this.button19.Location = new System.Drawing.Point(136, 173);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(56, 48);
             this.button19.TabIndex = 3;
@@ -242,7 +232,7 @@ namespace MyCalculator_bderobles
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(198, 182);
+            this.button21.Location = new System.Drawing.Point(198, 173);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(56, 48);
             this.button21.TabIndex = 3;
@@ -251,7 +241,7 @@ namespace MyCalculator_bderobles
             // 
             // button33
             // 
-            this.button33.Location = new System.Drawing.Point(74, 290);
+            this.button33.Location = new System.Drawing.Point(74, 281);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(56, 48);
             this.button33.TabIndex = 3;
@@ -260,7 +250,7 @@ namespace MyCalculator_bderobles
             // 
             // button35
             // 
-            this.button35.Location = new System.Drawing.Point(136, 290);
+            this.button35.Location = new System.Drawing.Point(136, 281);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(56, 48);
             this.button35.TabIndex = 3;
@@ -269,7 +259,7 @@ namespace MyCalculator_bderobles
             // 
             // button37
             // 
-            this.button37.Location = new System.Drawing.Point(198, 290);
+            this.button37.Location = new System.Drawing.Point(198, 281);
             this.button37.Name = "button37";
             this.button37.Size = new System.Drawing.Size(56, 48);
             this.button37.TabIndex = 3;
@@ -278,7 +268,7 @@ namespace MyCalculator_bderobles
             // 
             // button41
             // 
-            this.button41.Location = new System.Drawing.Point(74, 344);
+            this.button41.Location = new System.Drawing.Point(74, 335);
             this.button41.Name = "button41";
             this.button41.Size = new System.Drawing.Size(56, 48);
             this.button41.TabIndex = 3;
@@ -287,7 +277,7 @@ namespace MyCalculator_bderobles
             // 
             // button43
             // 
-            this.button43.Location = new System.Drawing.Point(136, 344);
+            this.button43.Location = new System.Drawing.Point(136, 335);
             this.button43.Name = "button43";
             this.button43.Size = new System.Drawing.Size(56, 48);
             this.button43.TabIndex = 3;
@@ -296,7 +286,7 @@ namespace MyCalculator_bderobles
             // 
             // button45
             // 
-            this.button45.Location = new System.Drawing.Point(198, 344);
+            this.button45.Location = new System.Drawing.Point(198, 335);
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(56, 48);
             this.button45.TabIndex = 3;
@@ -305,7 +295,7 @@ namespace MyCalculator_bderobles
             // 
             // button32
             // 
-            this.button32.Location = new System.Drawing.Point(12, 290);
+            this.button32.Location = new System.Drawing.Point(12, 281);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(56, 48);
             this.button32.TabIndex = 3;
@@ -315,7 +305,7 @@ namespace MyCalculator_bderobles
             // 
             // button40
             // 
-            this.button40.Location = new System.Drawing.Point(12, 342);
+            this.button40.Location = new System.Drawing.Point(12, 333);
             this.button40.Name = "button40";
             this.button40.Size = new System.Drawing.Size(56, 48);
             this.button40.TabIndex = 3;
@@ -325,7 +315,7 @@ namespace MyCalculator_bderobles
             // 
             // button24
             // 
-            this.button24.Location = new System.Drawing.Point(12, 236);
+            this.button24.Location = new System.Drawing.Point(12, 227);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(56, 48);
             this.button24.TabIndex = 3;
@@ -335,7 +325,7 @@ namespace MyCalculator_bderobles
             // 
             // button25
             // 
-            this.button25.Location = new System.Drawing.Point(74, 236);
+            this.button25.Location = new System.Drawing.Point(74, 227);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(56, 48);
             this.button25.TabIndex = 3;
@@ -344,7 +334,7 @@ namespace MyCalculator_bderobles
             // 
             // button27
             // 
-            this.button27.Location = new System.Drawing.Point(136, 236);
+            this.button27.Location = new System.Drawing.Point(136, 227);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(56, 48);
             this.button27.TabIndex = 3;
@@ -353,7 +343,7 @@ namespace MyCalculator_bderobles
             // 
             // button29
             // 
-            this.button29.Location = new System.Drawing.Point(198, 236);
+            this.button29.Location = new System.Drawing.Point(198, 227);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(56, 48);
             this.button29.TabIndex = 3;
@@ -402,9 +392,9 @@ namespace MyCalculator_bderobles
             // button39
             // 
             this.button39.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button39.Location = new System.Drawing.Point(260, 344);
+            this.button39.Location = new System.Drawing.Point(443, 281);
             this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(239, 48);
+            this.button39.Size = new System.Drawing.Size(56, 48);
             this.button39.TabIndex = 3;
             this.button39.Text = "=";
             this.button39.UseVisualStyleBackColor = true;
@@ -457,12 +447,13 @@ namespace MyCalculator_bderobles
             // 
             // button23
             // 
-            this.button23.Location = new System.Drawing.Point(443, 173);
+            this.button23.Location = new System.Drawing.Point(443, 176);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(56, 48);
             this.button23.TabIndex = 3;
             this.button23.Text = "6";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button22
             // 
@@ -490,15 +481,7 @@ namespace MyCalculator_bderobles
             this.button8.TabIndex = 3;
             this.button8.Text = "9";
             this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(381, 119);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(56, 48);
-            this.button7.TabIndex = 3;
-            this.button7.Text = "button1";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button15
             // 
@@ -521,18 +504,114 @@ namespace MyCalculator_bderobles
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(260, 281);
+            this.button5.Location = new System.Drawing.Point(257, 281);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(56, 48);
             this.button5.TabIndex = 3;
             this.button5.Text = "÷";
             this.button5.UseVisualStyleBackColor = true;
             // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(260, 333);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(56, 48);
+            this.button11.TabIndex = 4;
+            this.button11.Text = "x^2";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(319, 335);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(56, 48);
+            this.button13.TabIndex = 5;
+            this.button13.Text = "√";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(381, 335);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(56, 48);
+            this.button18.TabIndex = 6;
+            this.button18.Text = "(";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // button26
+            // 
+            this.button26.Location = new System.Drawing.Point(443, 335);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(56, 48);
+            this.button26.TabIndex = 6;
+            this.button26.Text = ")";
+            this.button26.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(12, 119);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(56, 48);
+            this.button9.TabIndex = 3;
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button1
+            // 
+            this.button1.Image = global::MyCalculator_bderobles.Properties.Resources.icons8_undo_24;
+            this.button1.Location = new System.Drawing.Point(12, 119);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(56, 48);
+            this.button1.TabIndex = 3;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(381, 119);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(56, 48);
+            this.button7.TabIndex = 3;
+            this.button7.Text = "button1";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // editToolStripMenuItem
+            // 
+            this.editToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.degToolStripMenuItem,
+            this.radToolStripMenuItem,
+            this.gradToolStripMenuItem});
+            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
+            this.editToolStripMenuItem.Text = "Edit";
+            // 
+            // degToolStripMenuItem
+            // 
+            this.degToolStripMenuItem.Name = "degToolStripMenuItem";
+            this.degToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.degToolStripMenuItem.Text = "Deg";
+            // 
+            // radToolStripMenuItem
+            // 
+            this.radToolStripMenuItem.Name = "radToolStripMenuItem";
+            this.radToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.radToolStripMenuItem.Text = "Rad";
+            // 
+            // gradToolStripMenuItem
+            // 
+            this.gradToolStripMenuItem.Name = "gradToolStripMenuItem";
+            this.gradToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.gradToolStripMenuItem.Text = "Grad";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(511, 402);
+            this.Controls.Add(this.button26);
+            this.Controls.Add(this.button18);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.button11);
             this.Controls.Add(this.button48);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button47);
@@ -635,10 +714,18 @@ namespace MyCalculator_bderobles
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem degToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem radToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gradToolStripMenuItem;
+        private System.Windows.Forms.Button button7;
     }
 }
 

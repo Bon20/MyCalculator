@@ -73,6 +73,16 @@ namespace MyCalculator_bderobles.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_reply_arrow_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-reply-arrow-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_undo_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-undo-24", resourceCulture);
