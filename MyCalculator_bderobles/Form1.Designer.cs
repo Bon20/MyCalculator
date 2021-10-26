@@ -549,6 +549,7 @@ namespace MyCalculator_bderobles
             // 
             // button9
             // 
+            this.button9.Image = global::MyCalculator_bderobles.Properties.Resources.icons8_undo_24;
             this.button9.Location = new System.Drawing.Point(12, 119);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(56, 48);
