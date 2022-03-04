@@ -18,3 +18,13 @@ C:\Users\Marina de Robles\Downloads\MyCalculator-master\MyCalculator_bderobles\o
 C:\Users\Marina de Robles\Downloads\MyCalculator-master\MyCalculator_bderobles\bin\Debug\MyCalculator_bderobles.exe.config
 C:\Users\Marina de Robles\Downloads\MyCalculator-master\MyCalculator_bderobles\bin\Debug\MyCalculator_bderobles.exe
 C:\Users\Marina de Robles\Downloads\MyCalculator-master\MyCalculator_bderobles\bin\Debug\MyCalculator_bderobles.pdb
+C:\Users\bmder\Desktop\MyCalculator-master\MyCalculator_bderobles\bin\Debug\MyCalculator_bderobles.exe.config
+C:\Users\bmder\Desktop\MyCalculator-master\MyCalculator_bderobles\bin\Debug\MyCalculator_bderobles.exe
+C:\Users\bmder\Desktop\MyCalculator-master\MyCalculator_bderobles\bin\Debug\MyCalculator_bderobles.pdb
+C:\Users\bmder\Desktop\MyCalculator-master\MyCalculator_bderobles\obj\Debug\MyCalculator_bderobles.csproj.AssemblyReference.cache
+C:\Users\bmder\Desktop\MyCalculator-master\MyCalculator_bderobles\obj\Debug\MyCalculator_bderobles.Form1.resources
+C:\Users\bmder\Desktop\MyCalculator-master\MyCalculator_bderobles\obj\Debug\MyCalculator_bderobles.Properties.Resources.resources
+C:\Users\bmder\Desktop\MyCalculator-master\MyCalculator_bderobles\obj\Debug\MyCalculator_bderobles.csproj.GenerateResource.cache
+C:\Users\bmder\Desktop\MyCalculator-master\MyCalculator_bderobles\obj\Debug\MyCalculator_bderobles.csproj.CoreCompileInputs.cache
+C:\Users\bmder\Desktop\MyCalculator-master\MyCalculator_bderobles\obj\Debug\MyCalculator_bderobles.exe
+C:\Users\bmder\Desktop\MyCalculator-master\MyCalculator_bderobles\obj\Debug\MyCalculator_bderobles.pdb

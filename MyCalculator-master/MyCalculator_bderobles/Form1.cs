@@ -240,7 +240,7 @@ namespace MyCalculator_bderobles
             {
                 lblDisplay2.Text += $"{angle}ᵣ({lblDisplay1.Text})";
                 trigoholder = Math.Round(GettrigoVal(angle, double.Parse(lblDisplay1.Text)), 11);
-                lblDisplay2.Text = trigoholder.ToString();
+                lblDisplay1.Text = trigoholder.ToString();
             }
             else
             {
@@ -649,7 +649,7 @@ namespace MyCalculator_bderobles
                         }
                         else
                         {
-                            lblDisplayCalculated = NCalculated - double.Parse(lblDisplay2.Text);
+                            lblDisplayCalculated = NCalculated - double.Parse(lblDisplay1.Text);
                             Disp2HolderOperation(DisplaySymbol);
                         }
                     }
@@ -892,7 +892,7 @@ namespace MyCalculator_bderobles
             }
             else if (operation == "openParan")
             {
-                NCalculated = double.Parse(lblDisplay2.Text);
+                NCalculated = double.Parse(lblDisplay1.Text);
                 for (int i = POperations.Count; i != 0; i--)
                 {
                     PEqual();
@@ -906,7 +906,7 @@ namespace MyCalculator_bderobles
             }
             else
             {
-                lastNumber = double.Parse(lblDisplay2.Text);
+                lastNumber = double.Parse(lblDisplay1.Text);
                 calculatedAnswer = lastNumber;
                 NCalculated = calculatedAnswer;
                 lblDisplay1.Text = lastNumber + " =";
@@ -1057,7 +1057,7 @@ namespace MyCalculator_bderobles
         {
             Button[] buttons = new Button[] {btnDeg, btn0, btn1, btn2, btn3, btn4,
             btn5, btn6, btn7, btn8, btn9, btnBack, btn2nd, btnSin,
-            btnCos, btnTan, btnSec, btnCsc, btnHyp, btnx2,btn1x,
+            btnCos, btnTan, btnSec, btnCsc, btnHyp, btnx2,
             btnX, btnSqr, btnOparen,
             btnCparen, btnN, btnDiv, btnMult, btnAdd, btnSub,
             btnEqual, btn10x, btnLog, btnln, btnPosNeg,
